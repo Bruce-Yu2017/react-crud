@@ -11,7 +11,6 @@ export default class Edit extends React.Component {
     }
   }
   componentWillMount() {
-    console.log(this.props.match.params.name)
     this.setState(() => ({
       name: this.props.match.params.name
     }))
